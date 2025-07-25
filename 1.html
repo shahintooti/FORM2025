@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="1.css">
+    <link rel="icon" href="0.jpg" type="image/0-icon">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Welcome Back!</h2><form onsubmit="return validateLogin()">
+            <div class="form-group">
+                <label for="loginUser">Username or Email</label>
+                <input type="text" class="form-control" id="loginUser" placeholder="Enter username or email">
+                <span id="userError" class="error-message"></span></div>
+            <div class="form-group">
+                <label for="loginPass">Password</label>
+                <input type="password" class="form-control" id="loginPass" placeholder="Enter password">
+                <span id="passError" class="error-message"></span></div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">Remember me</label></div>
+            <button type="submit" class="btn btn-custom">Login</button>
+            <p class="form-text text-center mt-3">Don't have an account?
+                <a href="0.html">Sign Up</a><br>
+                <a href="2.html">Forgot Password?</a></p></form></div>
+<script>
+    function validateLogin(){
+        var user=document.getElementById("loginUser").value.trim();
+        var pass=document.getElementById("loginPass").value.trim();
+        var valid=true;
+        document.getElementById("userError").innerText="";
+        document.getElementById("passError").innerText="";
+        if (user===""){document.getElementById("userError").innerText="Please enter your username or email.";valid=false;}
+        if (pass===""){document.getElementById("passError").innerText="Please enter your password.";valid=false;}return valid;}
+</script>
+</body>
+</html>

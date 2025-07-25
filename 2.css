@@ -1,0 +1,36 @@
+html{
+    text-align:center;
+    text-shadow:2px 2px hotpink;
+    transition:1s;
+    opacity:100px;
+    font-size:large;
+    color:lavender;
+    background-color:lavenderblush;
+    margin:10px;
+    padding:10px;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:'Poppins',sans-serif;
+}
+.reset-box{
+    background-color:hotpink;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 10px 25px;
+    width:100%;
+    max-width:400px;
+}
+.btn-custom{
+    text-align:center;
+    text-shadow:2px 2px lavender;
+    transition:1s;
+    opacity:100px;
+    color:lavenderblush;
+    background-color:hotpink;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+}

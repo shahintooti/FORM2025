@@ -1,0 +1,42 @@
+html{
+    text-align:unset;
+    text-shadow:2px 2px fuchsia;
+    cursor:w-resize;
+    transition:1s;
+    opacity:100px;
+    font-size:large;
+}
+div{
+    color:gainsboro;
+    background-color:ghostwhite;
+    opacity:100px;
+    font-size:large;
+    font-weight:100;
+    text-align:unset;
+    margin:10px;
+    padding:4px;
+    cursor:pointer;
+    text-shadow:2px 2px fuchsia;
+    transition:1s;
+}
+label{
+    text-shadow:2px 2px gainsboro;
+    transition:1s;
+    opacity:100px;
+    font-size:large;
+    color:ghostwhite;
+    cursor:pointer;
+}
+a{
+    text-align:unset;
+    text-shadow:2px 2px fuchsia;
+    cursor:pointer;
+    transition:1s;
+    opacity:100px;
+    font-size:large;
+    color:gainsboro;
+    background-color:ghostwhite;
+    font-weight:100;
+    margin:5px;
+    padding:5px;
+}

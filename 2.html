@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="2.css">
+    <link rel="icon" href="0.jpg" type="image/0-icon">
+    <title>FORGOT PAPPWORD?</title>
+</head>
+<body>
+    <div class="reset-box"><h2 class="text-center mb-4">Reset Your Password</h2>
+    <form onsubmit="return resetPassword()">
+        <div class="form-group">
+            <label for="resetEmail">Enter Your Email</label>
+            <input type="email" class="form-control" id="resetEmail" placeholder="example@mail.com" required></div>
+            <br><button type="submit" class="btn btn-custom btn-block">Send Reset Link</button>
+            <p class="text-center mt-3"><a href="1.html">Back to Login</a></p></form></div>
+<script>
+    function resetPassword(){
+        const email=document.getElementById("resetEmail").value;
+        alert("A reset link will be sent to " + email);return false;// برای تست - اگر واقعی بود باید بره به سرور
+}
+</script>
+</body>
+</html>
